@@ -5,7 +5,7 @@ info:
   termsOfService: https://example.com/terms/
   contact:
     email: john@springframework.guru
-    url: http://springframework.guru/contact
+    url: http://springframework.guru
   license:
     name: Apache 2.0
     url: http://www.apache.org/licenses/LICENSE-2.0.html
@@ -21,6 +21,8 @@ tags:
     description: Product operations   
   - name: Order
     description: Operations about orders.
+  - name: User
+    description: Usuaio Estudiante Jorge Mori
 servers:
   - url: https://{tenant}/api/v1
     variables:
